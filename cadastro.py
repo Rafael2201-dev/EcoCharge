@@ -3,3 +3,6 @@ cpf = input("Digite seu CPF: ")
 email = input("Digite seu email: ")
 senha = input("Digite sua senha: ")
 
+idade = int(input("Digite sua idade: "))
+if idade < 18:
+    print("Desculpe, você deve ser maior de idade para se cadastrar.")
