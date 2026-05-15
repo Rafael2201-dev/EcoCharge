@@ -6,3 +6,5 @@ senha = input("Digite sua senha: ")
 idade = int(input("Digite sua idade: "))
 if idade < 18:
     print("Desculpe, você deve ser maior de idade para se cadastrar.")
+else:
+    print("Cadastro realizado com sucesso!")
