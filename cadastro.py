@@ -8,3 +8,8 @@ if idade < 18:
     print("Desculpe, você deve ser maior de idade para se cadastrar.")
 else:
     print("Cadastro realizado com sucesso!")
+
+print("Nome:", nome)
+print("Nome:", nome)
+print("Nome:", nome)
+print("Nome:", nome)
