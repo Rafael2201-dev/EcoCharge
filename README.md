@@ -10,3 +10,10 @@ energias renováveis e para o desenvolvimento de cidades
 inteligentes, oferecendo uma alternativa sustentável e
 acessível para recarga de dispositivos móveis em ambientes
 urbanos.
+
+integrantes do grupo: 
+ - Rafael Bueno Gonçalves
+ - Sabrina Alves Andrade Pereira
+ - Matheus Miranda Peres
+ - Rafael Ferreira Pinto
+ - Matheus de Campos Vanzelli
