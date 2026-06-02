@@ -5,4 +5,11 @@ from estacoes import *
 
 print ("escolhe entre criar, atualizar, listar por id ou listar todos os usuarios")
 
-listar_estacoes()
+cadastrar_usuario(
+    nome="João Silva",
+    email="joao.silva@example.com",
+    senha="senha123",
+    tipo_usuario="comum"
+)
+
+

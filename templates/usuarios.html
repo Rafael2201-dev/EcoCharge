@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cadastro de Usuários</title>
+      <link rel="stylesheet"
+          href="{{ url_for('static', filename='usuarios.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Cadastro de Usuários</h1>
+
+        <form method="POST">
+
+            <label>Nome:</label>
+            <input type="text" name="nome">
+
+            <label>Email:</label>
+            <input type="email" name="email">
+
+            <label>Senha:</label>
+            <input type="password" name="senha">
+
+            <label>Tipo:</label>
+            <input type="text" name="tipo">
+
+            <button type="submit">
+                Cadastrar
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
