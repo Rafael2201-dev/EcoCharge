@@ -2,10 +2,10 @@ import mysql.connector
 
 def conectar():
     conexao = mysql.connector.connect(
-        host="localhost",
+        host="mysql://root:cGHlnwhsZwrXZarwFzuNHSUjSjMzLiuC@acela.proxy.rlwy.net:12056/railway",
         user="root",
-        password="2201",
-        database="ecocharge"
+        password="cGHlnwhsZwrXZarwFzuNHSUjSjMzLiuC",
+        database="railway"
     )
 
     return conexao
