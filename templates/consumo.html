@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meu Consumo - EcoCharge</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background:#07152d;
+    color:white;
+    margin:0;
+    padding:30px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+}
+
+h1{
+    color:#ffd700;
+    text-align:center;
+}
+
+.card{
+    background:#1b2a49;
+    border-radius:15px;
+    padding:25px;
+    margin-top:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th, td{
+    padding:15px;
+    border-bottom:1px solid #32405f;
+}
+
+th{
+    color:#ffd700;
+}
+
+.progress{
+    width:100%;
+    background:#32405f;
+    border-radius:20px;
+    margin-top:15px;
+}
+
+.progress-bar{
+    width:65%;
+    background:#ffd700;
+    height:20px;
+    border-radius:20px;
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+}
+
+.box{
+    background:#243556;
+    padding:15px;
+    border-radius:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📊 Meu Consumo</h1>
+
+<div class="card">
+
+<div class="stats">
+
+<div class="box">
+<strong>Usuário</strong>
+<p>Lucas Silva</p>
+</div>
+
+<div class="box">
+<strong>Total de Recargas</strong>
+<p>8</p>
+</div>
+
+<div class="box">
+<strong>Tempo Utilizado</strong>
+<p>4h35min</p>
+</div>
+
+<div class="box">
+<strong>Energia Consumida</strong>
+<p>2,8 kWh</p>
+</div>
+
+</div>
+
+<h2>Histórico de Utilização</h2>
+
+<table>
+
+<tr>
+<th>Data</th>
+<th>Estação</th>
+<th>Tempo</th>
+</tr>
+
+<tr>
+<td>01/06/2026</td>
+<td>Terminal São Paulo</td>
+<td>35 min</td>
+</tr>
+
+<tr>
+<td>29/05/2026</td>
+<td>Parque Campolim</td>
+<td>42 min</td>
+</tr>
+
+<tr>
+<td>26/05/2026</td>
+<td>Terminal Santo Antônio</td>
+<td>28 min</td>
+</tr>
+
+</table>
+
+<h2>Nível Médio da Bateria Utilizada</h2>
+
+<div class="progress">
+<div class="progress-bar"></div>
+</div>
+
+<p>65%</p>
+
+<h2>🌱 Impacto Ambiental</h2>
+
+<p>CO₂ economizado: <strong>1,2 kg</strong></p>
+
+</div>
+
+</div>
+
+</body>
+</html>

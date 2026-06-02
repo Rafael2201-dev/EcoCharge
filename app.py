@@ -28,5 +28,15 @@ def usuarios():
 
     return render_template("usuarios.html")
 
+
+@app.route("/estaçoes")
+def estacoes():
+    return render_template("estaçoes.html")
+
+
+@app.route("/consumo")
+def consumo():
+    return render_template("consumo.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
