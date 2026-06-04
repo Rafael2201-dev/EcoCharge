@@ -45,6 +45,22 @@
         margin-bottom: 15px;
     }
 
+    select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    background: #0f172a;
+    color: white;
+    margin-bottom: 15px;
+    cursor: pointer;
+    }
+
+    select:focus {
+    outline: none;
+    border-color: #3b82f6;
+    }
+
     input:focus {
         outline: none;
         border-color: #3b82f6;
