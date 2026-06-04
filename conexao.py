@@ -5,7 +5,7 @@ def conectar():
         host="acela.proxy.rlwy.net",
         user="root",
         password="cGHlnwhsZwrXZarwFzuNHSUjSjMzLiuC",
-        database="railway",
+        database="ecocharge",
         port=12056
     )
 
